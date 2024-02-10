@@ -36,3 +36,15 @@ body {
   font-style: normal;
   font-weight: 300;
 }
+:root {
+  --color__c90000: #c90000;
+  --color__7d7c7c: #7d7c7c;
+  --color__504f4f: #504f4f;
+  --color_323232: #323232;
+  --color_ffc300: #ffc300;
+  --color_fff6a3: #fff6a3;
+  --color_f1f1f1: #f1f1f1;
+}
+.text_danger {
+  color: var(--color__c90000);
+}
