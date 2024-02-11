@@ -42,6 +42,12 @@ ul {
   font-style: normal;
   font-weight: 300;
 }
+@font-face {
+  font-family: poppins;
+  src: url(/fonts/poppins/poppins-regular-webfont.woff) format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
 :root {
   --color__c90000: #c90000;
   --color__7d7c7c: #7d7c7c;
@@ -129,4 +135,100 @@ ul {
     display: none;
   }
 }
-/* header bottopm : */
+/* header bottom : */
+.header_bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.content_left_header_bottom {
+  align-self: center;
+}
+.content_left_header_bottom h1 {
+  font-size: 48px;
+  color: var(--color__c90000);
+  font-weight: 600;
+  line-height: 76px;
+}
+.content_left_header_bottom p {
+  color: var(--color__504f4f);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 77%;
+}
+.order_food {
+  margin-top: 3rem;
+}
+.text_price_order_food {
+  color: var(--color_323232);
+  margin-bottom: 1rem;
+}
+.text_price_order_food span:first-child {
+  font-size: 16px;
+  font-weight: 300;
+}
+.text_price_order_food span:last-child {
+  font-size: 24px;
+  font-weight: 500;
+}
+.action_order {
+  display: flex;
+  justify-content: space-between;
+  max-width: 79%;
+}
+
+.botton_action_order {
+  border: 1px solid rgb(241, 241, 241, 0.7);
+  box-shadow: 0 10px 17px 0 rgb(112, 144, 176, 0.2);
+  background-color: var(--color_fff);
+  border-radius: 100px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 41%;
+  gap: 12px;
+}
+.botton_action_order span {
+  color: var(--color_ffc300);
+  font-size: 20px;
+  font-weight: 500;
+}
+.botton_action_order span::before {
+  content: "";
+  width: 1px;
+  height: 22px;
+  display: inline-block;
+  background-color: rgba(222, 4, 4, 0.7);
+  margin-right: 12px;
+}
+.botton_action_order span::after {
+  content: "";
+  width: 1px;
+  height: 22px;
+  display: inline-block;
+  background-color: rgba(227, 20, 20, 0.7);
+  margin-left: 12px;
+}
+.botton_action_order button {
+  border: none;
+  background-color: transparent;
+}
+.action_order > button {
+  background-color: var(--color_ffc300);
+  box-shadow: 0 20px 20px 0 rgb(241, 241, 241, 0.7);
+  padding: 16px 24px;
+  border: none;
+  border-radius: 100px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color_323232);
+  font-size: 20px;
+  font-weight: 600;
+}
+.action_order > button img {
+  margin-right: 5px;
+  margin-top: -3px;
+}
