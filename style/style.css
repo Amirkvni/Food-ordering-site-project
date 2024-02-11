@@ -142,6 +142,7 @@ ul {
 }
 .content_left_header_bottom {
   align-self: center;
+  width: 86%;
 }
 .content_left_header_bottom h1 {
   font-size: 48px;
@@ -231,4 +232,39 @@ ul {
 .action_order > button img {
   margin-right: 5px;
   margin-top: -3px;
+}
+.right_picture {
+  width: 100%;
+}
+.content_right_header_bottom {
+  position: relative;
+}
+.fixed_box_delivery {
+  position: absolute;
+  top: 5rem;
+  left: -6rem;
+  border-radius: 50px 50px 0 50px;
+  border: 1px solid var(--color_f1f1f1);
+  background-color: rgb(241, 241, 241, 0.9);
+  padding: 12px;
+}
+.fixed_box_delivery {
+  text-align: center;
+}
+.fixed_box_delivery div {
+  display: flex;
+  align-items: center;
+}
+.fixed_box_delivery div span {
+  color: var(--color_323232);
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 5px;
+  display: block;
+  margin-top: 6px;
+}
+.fixed_box_delivery > span {
+  color: var(--color__7d7c7c);
+  font-size: 16px;
+  font-weight: 400;
 }
