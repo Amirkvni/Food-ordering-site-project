@@ -401,3 +401,71 @@ ul {
   color: var(--color_323232) !important;
   font-weight: 600 !important;
 }
+/* product box*/
+.row_grid_food_products {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  margin-top: 32px;
+  gap: 30px;
+}
+.item_food_grid {
+  /* width: 300px; */
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 1rem;
+  position: relative;
+}
+.img_item_food_grid {
+  position: relative;
+  text-align: center;
+}
+.img_item_food_grid img {
+  max-width: 227px;
+  max-height: 170px;
+}
+.img_item_food_grid > div {
+  height: 105px;
+  background-color: #fffde6;
+  border-radius: 12px;
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+  z-index: -1;
+}
+.info_item_food_grid {
+  margin-top: 18px;
+}
+.info_item_food_grid h5 {
+  font-size: 20px;
+  color: var(--color_323232);
+  font-weight: 600;
+}
+.info_item_food_grid p {
+  font-size: 14px;
+  color: var(--color__504f4f);
+  font-weight: 400;
+  margin-top: 5px;
+}
+.score_item_food_grid {
+  margin: 12px 0 20px 0;
+}
+.bottom_item_food_grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom_item_food_grid span {
+  color: var(--color_323232);
+  font-size: 24px;
+  font-weight: 600;
+}
+.bottom_item_food_grid button {
+  background-color: var(--color__c90000);
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+.Badge-Discount {
+  width: 48px;
+  position: absolute;
+}
