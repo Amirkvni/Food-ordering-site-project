@@ -9,6 +9,9 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  /* width: 100%; */
+}
 ul {
   list-style-type: none;
 }
@@ -266,8 +269,9 @@ ul {
   padding: 16px 24px;
   border: none;
   border-radius: 100px;
-  padding: 16px;
+  padding: 16px 24px;
   display: flex;
+  font-family: "poppins";
   justify-content: center;
   align-items: center;
   color: var(--color_323232);
@@ -380,9 +384,10 @@ ul {
   font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
+  width: max-content;
 }
 .line_bottom_row_title {
-  width: 137px;
+  width: 100%;
   height: 9px;
   background-color: var(--color_fff6a3);
   position: absolute;
@@ -479,4 +484,95 @@ ul {
 .Badge-Discount {
   width: 48px;
   position: absolute;
+}
+.see_all_food {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.see_all_food a {
+  color: var(--color__504f4f);
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.section_off {
+  margin-top: 10rem;
+}
+.section_off .row_title_section_food {
+  display: flex;
+  justify-content: center;
+}
+.item_food_off {
+  width: 370px;
+  height: 335px;
+  padding: 2rem 0 2rem 1.2rem;
+  border: 1px solid #e3e3e3;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+.row_info_food_off {
+  display: flex;
+}
+.title_sm_item_food_off span:last-child {
+  display: inline-block;
+  width: 75%;
+  background-color: #7d7c7c;
+  height: 1px;
+}
+.title_sm_item_food_off {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+.left_item_food_off {
+  width: 95%;
+}
+.left_item_food_off h6 {
+  color: var(--color__c90000);
+  font-size: 27px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0.9rem 0;
+}
+.left_item_food_off p {
+  color: var(--color__504f4f);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.right_item_food_ff img {
+  width: 100%;
+  transform: scale(2);
+  position: relative;
+  top: 25%;
+}
+.price_off dl {
+  color: #7d7c7c;
+  font-size: 16px;
+  font-weight: 600;
+}
+.price_off span {
+  color: var(--color__c90000);
+  font-size: 24px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+.left_item_food_off button {
+  background-color: var(--color__504f4f);
+  border-radius: 20px;
+  color: #f1f1f1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: poppins;
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+  padding: 8px 12px;
+  border: none;
+  margin-top: 4.5rem;
+}
+.left_item_food_off button span {
+  height: 24px;
+  line-height: 27px;
 }
