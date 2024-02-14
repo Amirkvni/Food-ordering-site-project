@@ -640,6 +640,7 @@ footer {
   color: #323232;
   font-size: 32px;
   font-weight: 600;
+  white-space: nowrap;
 }
 .info_site_footer ul {
   display: flex;
